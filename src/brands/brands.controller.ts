@@ -39,4 +39,5 @@ export class BrandsController {
   remove(@Param("id") id: string) {
     return this.brandsService.remove(id);
   }
+
 }
